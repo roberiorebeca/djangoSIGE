@@ -4,4 +4,6 @@ from django.apps import AppConfig
 
 
 class FiscalConfig(AppConfig):
-    name = 'fiscal'
+    default_auto_field = 'django.db.models.BigAutoField'  # opcional, mas recomendado em versões novas
+    name = 'djangosige.apps.fiscal'  # <<< use o caminho completo do pacote
+    label = 'fiscal'  # opcional; mantém o rótulo curto no banco/admin  

@@ -4,4 +4,6 @@ from django.apps import AppConfig
 
 
 class EstoqueConfig(AppConfig):
-    name = 'estoque'
+    default_auto_field = 'django.db.models.BigAutoField'  # opcional, mas recomendado em versões novas
+    name = 'djangosige.apps.estoque'  # <<< use o caminho completo do pacote
+    label = 'estoque'  # opcional; mantém o rótulo curto no banco/admin  

@@ -4,4 +4,6 @@ from django.apps import AppConfig
 
 
 class LoginConfig(AppConfig):
-    name = 'login'
+    default_auto_field = 'django.db.models.BigAutoField'  # opcional, mas recomendado em versões novas
+    name = 'djangosige.apps.login'  # <<< use o caminho completo do pacote
+    label = 'login'  # opcional; mantém o rótulo curto no banco/admin    

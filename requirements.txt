@@ -1,12 +1,24 @@
-https://github.com/thiagopena/geraldo/archive/master.zip
-https://github.com/thiagopena/PySIGNFe/archive/master.zip
-Django==3.1.*
-dj-database-url==0.5.*
-python-decouple==3.1
+asgiref==3.9.2
+certifi==2025.8.3
+cffi==2.0.0
+chardet==5.2.0
+cryptography==43.0.3
+dj-database-url==2.3.0
+Django==4.2
+Geraldo @ https://github.com/thiagopena/geraldo/archive/master.zip#sha256=295474be791f259c83ac36e9e133eddad2702f88548d3dde5f71b35de0a319a9
+lxml==6.0.2
+pillow==11.3.0
+psycopg==3.2.10
+psycopg-binary==3.2.10
+pycparser==2.23
+pyOpenSSL==24.2.1
+PySIGNFe @ https://github.com/thiagopena/PySIGNFe/archive/master.zip#sha256=72c71249846ea61e18324a215f9aa361631acfe17f2923a0309d2a1124dd7c87
+python-decouple==3.8
 pytz==2018.3
-reportlab==3.4.*
-six==1.11.*
-cryptography>=2.3
-lxml==4.2.*
-pyOpenSSL==17.5.*
-signxml==2.5.*
+reportlab==4.0.9
+setuptools==80.9.0
+signxml==4.2.0
+six==1.11.0
+sqlparse==0.5.3
+typing_extensions==4.15.0
+wheel==0.45.1
