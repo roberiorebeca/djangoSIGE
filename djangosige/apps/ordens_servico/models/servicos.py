@@ -28,7 +28,7 @@ class OrdemServico(models.Model):
 
     # totais
     subtotal = models.DecimalField(max_digits=14, decimal_places=2, default=0)
-    tipo_desconto = models.CharField(max_length=1, choices=TipoDescontoOS_Escolhas, null=True, blank=True)
+    tipo_desconto = models.CharField(max_length=1, choices=TipoDescontoOS_Escolhas.choices, default=TipoDescontoOS_Escolhas.VALOR)
     desconto = models.DecimalField(max_digits=14, decimal_places=4, default=0)
     total = models.DecimalField(max_digits=14, decimal_places=2, default=0)
 

@@ -15,5 +15,5 @@ class NFSeStatus(TextChoices):
     CANCELADA  = "cancelada", "Cancelada"
 
 class TipoDescontoOS_Escolhas(TextChoices):
-    0       = "0", "Valor"
-    1       =  "1", "Percentual"
+    VALOR       = "valor", "Valor"
+    PERCENTUAL  =  "percentual", "Percentual"
