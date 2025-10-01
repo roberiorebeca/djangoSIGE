@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'djangosige.apps.fiscal',
     'djangosige.apps.financeiro',
     'djangosige.apps.estoque',
+    'djangosige.apps.ordens_servico',
 ]
 
 
